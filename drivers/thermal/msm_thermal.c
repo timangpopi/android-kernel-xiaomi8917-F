@@ -492,11 +492,6 @@ static ssize_t thermal_config_debugfs_write(struct file *file,
 		}                                                             \
 	} while (0)
 
-bool mitigation_thermal_core_control(void)
-{
-	return mitigation_thermal_cc;
-}
-
 static void uio_init(struct platform_device *pdev)
 {
 	int ret = 0;
