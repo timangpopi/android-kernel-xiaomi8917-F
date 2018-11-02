@@ -1138,3 +1138,7 @@ endif
 source "lib/Kconfig"
 
 source "arch/arm64/mm/Kconfig"
+
+source "arch/arm64/hotplug/AUTOSMP/Kconfig"
+
+source "arch/arm64/hotplug/ALUCARD/Kconfig"
