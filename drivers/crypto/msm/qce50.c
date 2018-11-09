@@ -4153,28 +4153,8 @@ static int qce_init_ce_cfg_val(struct qce_device *pce_dev)
 			(CRYPTO_AUTH_ALG_SNOW3G << CRYPTO_AUTH_ALG) |
 				BIT(CRYPTO_FIRST) | BIT(CRYPTO_LAST);
 	return 0;
-{
-
-	}
 }
 
-static void _qce_ccm_get_around_output(struct qce_device *pce_dev,
-	struct ce_request_info *preq_info, enum qce_cipher_dir_enum dir)
-{
-	}
-
-/* QCE_DUMMY_REQ */
-static void qce_dummy_complete(void *cookie, unsigned char *digest,
-		unsigned char *authdata, int ret)
-{
-	if (!cookie)
-		pr_err("invalid cookie\n");
-}
-
-static int select_mode(struct qce_device *pce_dev,
-		struct ce_request_info *preq_info)
-{
-        }
 static int _qce_aead_ccm_req(void *handle, struct qce_req *q_req)
 {
 	struct qce_device *pce_dev = (struct qce_device *) handle;
