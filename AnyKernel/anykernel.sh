@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=IWLLNP Kernel By Fadlyas
+kernel.string=BlueOceand //@Mmhmdfas//
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
