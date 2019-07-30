@@ -6,9 +6,9 @@ jobs:
     steps:
       - run: apt-get -y update && apt-get -y upgrade && apt-get -y install bc build-essential zip curl libstdc++6 git wget
       - run: git clone https://github.com/timangpopi/android-kernel-xiaomi8917-F.git --depth=1 -b lineage-15.1 .
-      - run: wget https://raw.githubusercontent.com/timangpopi/gehu/master/horizon
-      - run: chmod +x horizon
-      - run: bash horizon
+      - run: wget https://raw.githubusercontent.com/timangpopi/gehu/master/circle
+      - run: chmod +x circle
+      - run: bash circle
 workflows:
   version: 2.1
   cooking:
