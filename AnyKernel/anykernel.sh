@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=BlueOceand //@Mmhmdfas//
+kernel.string=BlueOceans //@Mmhmdfas//
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
